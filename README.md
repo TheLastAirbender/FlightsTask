@@ -9,7 +9,7 @@
 
 ```shell script
 # Склонировать проект к себе
-git clone https://github.com/devalurum/egrp365-bot.git
+git clone https://https://github.com/TheLastAirbender/FlightsTask.git
 
 # загружает gradle wrapper
 gradlew wrapper
