@@ -10,7 +10,7 @@ import java.util.List;
 public class AppRunner {
 
     public static void main(String[] args) {
-//        System.out.println("Hello");
+
         File ticketsFile = new File("tickets.json");
 
         TicketSerializer ticketSerializer = new TicketSerializer();
@@ -20,7 +20,7 @@ public class AppRunner {
 
         String averageFlightTime = ticketService.averageFlightTime(tickets);
         String percentileFlightTime = ticketService.percentileAverageFlightTime(tickets, 90.0);
-        //System.out.println(tickets);
+
         System.out.println("average: " + averageFlightTime);
         System.out.println("90% percentile: " + percentileFlightTime);
     }

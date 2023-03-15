@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 public class TicketService {
     public String averageFlightTime(List<Ticket> ticketsList) {
-        double averageSeconds = 0.0;
+        double totalDurationSeconds = 0.0;
 
         for (Ticket ticket : ticketsList) {
             // todo как-то вынести в отдельный метод ??
@@ -28,9 +28,9 @@ public class TicketService {
             LocalDateTime arrivalDateTime = LocalDateTime.of(ticket.getArrivalDate(), ticket.getArrivalTime());
             arrivalDateTime = arrivalDateTime.plusHours(8);
 //            averageHours += Duration.between(departureDateTime, arrivalDateTime).toHours();
-            averageSeconds += Duration.between(departureDateTime, arrivalDateTime).toSeconds();
+            totalDurationSeconds += Duration.between(departureDateTime, arrivalDateTime).toSeconds();
         }
-        double avgDuration = averageSeconds / ticketsList.size();
+        double avgDuration = totalDurationSeconds / ticketsList.size();
 //        return Double.toString(avgDuration);
         return TimeConverter.secondsToHHmmString((int)avgDuration);
     }

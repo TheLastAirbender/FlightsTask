@@ -1,6 +1,7 @@
 package org.skrapivnoy.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.skrapivnoy.model.Ticket;
@@ -15,7 +16,7 @@ public class TicketSerializer {
     private final ObjectMapper mapper;
 
     public TicketSerializer() {
-        var mapper = new ObjectMapper();
+        ObjectMapper mapper = new ObjectMapper();
         // без JavaTimeModule и snakecase нормально не хочет маппится почему-то
         mapper.registerModule(new JavaTimeModule());
         mapper.setPropertyNamingStrategy(new PropertyNamingStrategies.SnakeCaseStrategy());
