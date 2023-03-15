@@ -13,6 +13,7 @@ repositories {
 ext {
     jacksonVersion = "2.14.1"
     lombokVersion = "1.18.24"
+    apacheCommonVersion = "3.6.1"
 }
 
 dependencies {
@@ -20,6 +21,7 @@ dependencies {
     implementation "com.fasterxml.jackson.core:jackson-core:$jacksonVersion"
     implementation "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
     implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$jacksonVersion"
+    implementation "org.apache.commons:commons-math3:$apacheCommonVersion"
 
     compileOnly "org.projectlombok:lombok:$lombokVersion"
     annotationProcessor "org.projectlombok:lombok:$lombokVersion"

@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2bd4cd-28a5-45a2-a8f6-927176ac93bb" name="Changes" comment="try1">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c2bd4cd-28a5-45a2-a8f6-927176ac93bb" name="Changes" comment="little bit refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/AppRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/service/TicketSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/service/TicketSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/service/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/utils/TimeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skrapivnoy/utils/TimeConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,11 +63,30 @@
       <option name="project" value="LOCAL" />
       <updated>1678819006834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="little bit refactoring">
+      <created>1678844896756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678844896756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try1" />
-    <option name="LAST_COMMIT_MESSAGE" value="try1" />
+    <MESSAGE value="little bit refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="little bit refactoring" />
   </component>
 </project>
